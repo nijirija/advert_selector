@@ -6,7 +6,7 @@ module AdvertSelector
     #acts_as_list :scope => [:master_id, :master_type]
 
     belongs_to :banner, :class_name => 'AdvertSelector::Banner'
-    acts_as_list :scope => :banner_id
+    #acts_as_list :scope => :banner_id
 
 
     def name_sym
